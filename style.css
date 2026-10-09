@@ -762,9 +762,9 @@ footer small {
 }
 
 #topBtn.show {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 #topBtn:hover {
